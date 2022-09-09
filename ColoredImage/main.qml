@@ -53,11 +53,50 @@ Window {
 
             }
         }
-        ColoredImage{
-            id: yellowBank
-            width: 40
-            height: 40
+
+        ColumnLayout{
+            spacing: 10
+
+            Item{
+                width: 100
+                height: 100
+                Layout.alignment: Qt.AlignHCenter
+
+                Rectangle{
+                    id: yellowBankFrame
+                    anchors.fill: parent
+                    border.color: "black"
+                }
+
+                DropShadow{
+                    anchors.fill: yellowBankFrame
+                    horizontalOffset: 3
+                    verticalOffset: 3
+                    radius: 8.0
+                    samples: 17
+                    color: "#80000000"
+                    source: yellowBankFrame
+                }
+
+                ColoredImage{
+                    id: yellowBank
+                    anchors.centerIn: parent
+                    width: 40
+                    height: 40
+                }
+            }
+
+            Label{
+                text: "Yellow Img"
+                horizontalAlignment: Text.AlignHCenter
+                Layout.alignment: Qt.AlignHCenter
+
+            }
+
+
         }
+
+
         ColoredImage{
             id: blueBank
             width: 40
