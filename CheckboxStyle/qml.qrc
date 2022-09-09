@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assets/checkmark_grey.png</file>
+        <file>assets/checkmark_white.png</file>
+        <file>assets/strawberry_pastel.png</file>
+        <file>CheckBoxStyle1.qml</file>
+        <file>ColoredImage.qml</file>
+    </qresource>
+</RCC>
