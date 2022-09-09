@@ -1,5 +1,8 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 1.15
+import QtGraphicalEffects 1.15
 
 Window {
     width: 640
@@ -7,16 +10,48 @@ Window {
     visible: true
     title: qsTr("Colored Image")
 
-    Row{
+    RowLayout{
         id: row
         anchors.centerIn: parent
         spacing: 20
 
-        Image {
-            id: originalImage
-            source: "qrc:/assets/bank_grey.png"
-            width: 40
-            height: 40
+        ColumnLayout{
+            spacing: 10
+
+            Item{
+                id: orgContainer
+                width: 100
+                height: 100
+                Layout.alignment: Qt.AlignHCenter
+
+                Rectangle{
+                    id: frame1
+                    anchors.fill: parent
+                    border.color: "black"
+                }
+                DropShadow{
+                    anchors.fill: frame1
+                    horizontalOffset: 3
+                    verticalOffset: 3
+                    radius: 8.0
+                    samples: 17
+                    color: "#80000000"
+                    source: frame1
+                }
+
+                Image {
+                    id: originalImage
+                    anchors.centerIn: parent
+                    source: "qrc:/assets/bank_grey.png"
+
+                }
+            }
+            Label{
+                text: "Org Img"
+                horizontalAlignment: Text.AlignHCenter
+                Layout.alignment: Qt.AlignHCenter
+
+            }
         }
         ColoredImage{
             id: yellowBank
