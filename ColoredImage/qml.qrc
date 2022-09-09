@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>ColoredImage.qml</file>
+        <file>assets/bank_grey.png</file>
     </qresource>
 </RCC>
