@@ -92,16 +92,44 @@ Window {
                 Layout.alignment: Qt.AlignHCenter
 
             }
-
-
         }
 
+        ColumnLayout{
+            Item{
+                width: 100
+                height: 100
+                Layout.alignment: Qt.AlignCenter
 
-        ColoredImage{
-            id: blueBank
-            width: 40
-            height: 40
-            color: "blue"
+                Rectangle{
+                    id: blueBankFrame
+                    anchors.fill: parent
+                    border.color: "black"
+                }
+
+                DropShadow{
+                    anchors.fill: blueBankFrame
+                    source: blueBankFrame
+                    horizontalOffset: 3
+                    verticalOffset: 3
+                    radius: 8.0
+                    samples: 17
+                    color: "#80000000"
+
+                }
+
+                ColoredImage{
+                    id: blueBank
+                    anchors.centerIn: parent
+                    width: 40
+                    height: 40
+                    color: "blue"
+                }
+            }
+
+            Label{
+                text: "Blue Img"
+                Layout.alignment: Qt.AlignHCenter
+            }
         }
     }
 
