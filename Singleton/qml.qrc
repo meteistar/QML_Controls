@@ -1,5 +1,9 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>utils/SVG.qml</file>
+        <file>utils/AppUtil.qml</file>
+        <file>utils/qmldir</file>
+        <file>assets/fonts/Nunito-Regular.ttf</file>
     </qresource>
 </RCC>
