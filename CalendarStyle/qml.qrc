@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assests/double_left_grey.png</file>
+        <file>assests/double_right_grey.png</file>
+        <file>assests/left_grey.png</file>
+        <file>assests/right_grey.png</file>
+    </qresource>
+</RCC>
