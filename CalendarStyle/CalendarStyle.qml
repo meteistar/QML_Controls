@@ -178,7 +178,7 @@ Rectangle {
                         color: currentDate === Qt.formatDate(styleData.date, dateFormat) ? "#ffe400" : "white"
                         radius: height / 2
                         border.width: styleData.selected ? 2 : 0
-                        border.color: styleData.selected ? "ffe400" : "white"
+                        border.color: styleData.selected ? "#ffe400" : "white"
 
                         Label{
                             text: styleData.date.getDate()
