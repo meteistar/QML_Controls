@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ComboBoxStyle.qml</file>
+        <file>utils/AppUtil.qml</file>
+    </qresource>
+</RCC>
