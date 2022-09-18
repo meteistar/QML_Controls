@@ -4,5 +4,7 @@
         <file>assets/undraw_message_sent_re_q2kl.svg</file>
         <file>assets/undraw_startled_-8-p0r.svg</file>
         <file>assets/undraw_warning_re_eoyh.svg</file>
+        <file>singleton/SVG.qml</file>
+        <file>ImageConfirmDialog.qml</file>
     </qresource>
 </RCC>
