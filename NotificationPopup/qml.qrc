@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>assets/reading_confirmation_pastel.png</file>
+        <file>NotificationPopup.qml</file>
+    </qresource>
+</RCC>
