@@ -17,7 +17,7 @@ Row {
     Column{
         height: parent.height
         width: parent.width - 25
-        leftPadding: 5
+        leftPadding: 15
         Text {
             id: label
             verticalAlignment: Text.AlignVCenter
