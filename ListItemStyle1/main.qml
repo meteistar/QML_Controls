@@ -32,44 +32,44 @@ Window {
 
     }
 
-//    Column{
-//        anchors.centerIn: parent
-//        width: parent.width
-//        height: childrenRect.height
-//        spacing: 10
+    Column{
+        anchors.centerIn: parent
+        width: parent.width
+        height: childrenRect.height
+        spacing: 10
 
-//        Repeater{
-//            model: fruitModel
-//            ListItemStyle1{
-//                width: 150
-//                height: 40
-//                anchors.horizontalCenter: parent.horizontalCenter
-//                label: fruitName
-//                iconSource: fruitIcon
-//                text: "Price: " + price
-//            }
-//        }
-//    }
+        Repeater{
+            model: fruitModel
+            ListItemStyle1{
+                width: 150
+                height: 40
+                anchors.horizontalCenter: parent.horizontalCenter
+                label: fruitName
+                iconSource: fruitIcon
+                text: "Price: " + price
+            }
+        }
+    }
 
-      Column{
-          anchors.centerIn: parent
-          width: parent.width
-          height: childrenRect.height
-          spacing: 10
+//      Column{
+//          anchors.centerIn: parent
+//          width: parent.width
+//          height: childrenRect.height
+//          spacing: 10
 
-          Repeater{
-              model: fruitModel
+//          Repeater{
+//              model: fruitModel
 
-              ListItemStyle2{
-                  width: 180
-                  height: 40
-                  anchors.horizontalCenter: parent.horizontalCenter
-                  label: fruitName
-                  iconSource: fruitIcon
-                  text: "Price: " + price
-              }
-          }
-      }
+//              ListItemStyle2{
+//                  width: 180
+//                  height: 40
+//                  anchors.horizontalCenter: parent.horizontalCenter
+//                  label: fruitName
+//                  iconSource: fruitIcon
+//                  text: "Price: " + price
+//              }
+//          }
+//      }
 
 
 }
