@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AppUtil.qml</file>
+        <file>assets/fonts/Nunito-Regular.ttf</file>
+        <file>assets/error_grey.png</file>
+        <file>assets/hide_grey.png</file>
+        <file>assets/password_grey.png</file>
+        <file>assets/show_grey.png</file>
+        <file>PasswordInput.qml</file>
+    </qresource>
+</RCC>
