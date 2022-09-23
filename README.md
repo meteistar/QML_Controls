@@ -23,5 +23,6 @@ How to Stylized QML Components
 ## Material Button
 ![image](https://github.com/meteistar/QML_Controls/blob/master/MaterialButton/Sep-18-2022%2017-50-09.gif)
 
-
+## TextFiled Style
+![image](https://github.com/meteistar/QML_Controls/blob/master/TextFieldInput1/assets/demo.gif)
 
