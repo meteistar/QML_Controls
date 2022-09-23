@@ -11,7 +11,14 @@ Window {
     Rectangle{
         anchors.fill: parent
 
-        TextFieldStyle1{
+//        TextFieldStyle1{
+//            anchors.centerIn: parent
+//            lineEdit.placeholderText: "Email"
+//            icon.source: "qrc:/assets/email_grey.png"
+//            regex: "^([\\w]+\\.?)+@([\\w]+\\.)+([\\w]+\\/?)+\\w$"
+//        }
+
+        TextFieldStyle2{
             anchors.centerIn: parent
             lineEdit.placeholderText: "Email"
             icon.source: "qrc:/assets/email_grey.png"
