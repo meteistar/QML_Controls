@@ -10,8 +10,9 @@ Window {
 
     NotificationPopup{
         id: notificationPopup
-        anchors.centerIn: parent
-
+        //anchors.centerIn: parent
+        y:300
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 
     Button{

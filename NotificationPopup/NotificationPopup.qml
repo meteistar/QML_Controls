@@ -15,7 +15,7 @@ ShadowedRectangle {
 
     function open(notificationText, imageSource){
         opacityAnimation.stop();
-        root.opacity = 1
+        root.opacity = 0
         root.visible = true;
 
         text = notificationText;
@@ -55,8 +55,25 @@ ShadowedRectangle {
         }
     }
 
-    NumberAnimation{
+    SequentialAnimation{
         id: opacityAnimation
+        ParallelAnimation{
+        NumberAnimation{
+            target: root
+            property: "opacity"
+            to: 1
+            duration: 1000
+        }
+        NumberAnimation{
+            target: root
+            property: "y"
+            from: 300
+            to:250
+            duration: 1000
+        }
+    }
+    NumberAnimation{
+        //id: opacityAnimation
         target: root
         property: "opacity"
         to: 0
@@ -64,6 +81,8 @@ ShadowedRectangle {
         onStopped: {
             root.visible = false;
         }
+
+    }
 
     }
 }
