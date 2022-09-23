@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>assets/checkmark_grey.png</file>
+        <file>assets/email_grey.png</file>
+        <file>assets/error_grey.png</file>
+        <file>assets/fonts/Nunito-Regular.ttf</file>
+        <file>AppUtil.qml</file>
+        <file>TextFieldStyle1.qml</file>
     </qresource>
 </RCC>
