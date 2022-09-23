@@ -26,3 +26,6 @@ How to Stylized QML Components
 ## TextFiled Style
 ![image](https://github.com/meteistar/QML_Controls/blob/master/TextFieldInput1/assets/demo.gif)
 
+### Style2 of TextField
+![image](https://github.com/meteistar/QML_Controls/blob/master/TextFieldInput1/assets/demo2.gif)
+
