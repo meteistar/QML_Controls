@@ -29,3 +29,5 @@ How to Stylized QML Components
 ### Style2 of TextField
 ![image](https://github.com/meteistar/QML_Controls/blob/master/TextFieldInput1/assets/demo2.gif)
 
+## Custom Busy Indicator
+![image](https://github.com/meteistar/QML_Controls/blob/master/Spinner/Demo.gif)
