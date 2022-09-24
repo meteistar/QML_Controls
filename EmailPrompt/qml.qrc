@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>EmailPrompt.qml</file>
+        <file>TextFieldStyle1.qml</file>
+        <file>assets/email_grey.png</file>
+        <file>MaterialButton.qml</file>
+        <file>assets/checkmark_grey.png</file>
+        <file>assets/error_grey.png</file>
+    </qresource>
+</RCC>
